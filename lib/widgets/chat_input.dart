@@ -14,7 +14,7 @@ class ChatInput extends StatelessWidget {
       padding: const EdgeInsets.all(10),
       decoration: const BoxDecoration(
         border: Border(
-          bottom: const BorderSide(color: dividerColor),
+          bottom: BorderSide(color: dividerColor),
         ),
         color: chatBarMessage,
       ),
@@ -38,7 +38,7 @@ class ChatInput extends StatelessWidget {
             child: TextField(
               cursorColor: tabColor,
               decoration: InputDecoration(
-                contentPadding: EdgeInsets.only(left: 20),
+                contentPadding: const EdgeInsets.only(left: 20),
                 hintText: "type something. . .",
                 fillColor: searchBarColor,
                 filled: true,

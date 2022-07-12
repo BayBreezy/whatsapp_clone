@@ -12,19 +12,19 @@ class MyMessageCard extends StatelessWidget {
     return Align(
       alignment: Alignment.centerRight,
       child: Padding(
-        padding: EdgeInsets.only(right: 20),
+        padding: const EdgeInsets.only(right: 20),
         child: Card(
             elevation: 2,
             color: messageColor,
-            margin: EdgeInsets.only(bottom: 10),
+            margin: const EdgeInsets.only(bottom: 10),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(6),
             ),
             child: Stack(
               children: [
                 Padding(
-                  padding:
-                      EdgeInsets.only(left: 10, right: 10, bottom: 26, top: 10),
+                  padding: const EdgeInsets.only(
+                      left: 10, right: 10, bottom: 26, top: 10),
                   child: Text(message),
                 ),
                 Positioned(
@@ -34,13 +34,13 @@ class MyMessageCard extends StatelessWidget {
                       children: [
                         Text(
                           date,
-                          style: TextStyle(
+                          style: const TextStyle(
                               fontSize: 10, fontWeight: FontWeight.w200),
                         ),
                         const SizedBox(
                           width: 5,
                         ),
-                        Icon(
+                        const Icon(
                           Icons.check,
                           size: 14,
                         )

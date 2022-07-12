@@ -31,10 +31,11 @@ class WebProfileBar extends StatelessWidget {
           ),
           const Spacer(),
           IconButton(
-              onPressed: () {}, icon: Icon(Icons.chat, color: Colors.grey)),
+              onPressed: () {},
+              icon: const Icon(Icons.chat, color: Colors.grey)),
           IconButton(
               onPressed: () {},
-              icon: Icon(Icons.more_vert, color: Colors.grey)),
+              icon: const Icon(Icons.more_vert, color: Colors.grey)),
         ],
       ),
     );

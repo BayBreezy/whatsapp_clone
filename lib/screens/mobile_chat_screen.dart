@@ -15,12 +15,12 @@ class MobileChatScreen extends StatelessWidget {
         title: Text(info[0]["name"].toString()),
         centerTitle: false,
         actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.video_call)),
-          IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
+          IconButton(onPressed: () {}, icon: const Icon(Icons.video_call)),
+          IconButton(onPressed: () {}, icon: const Icon(Icons.more_vert)),
         ],
       ),
       body: Column(
-        children: [Expanded(child: ChatList()), ChatInput()],
+        children: const [Expanded(child: ChatList()), ChatInput()],
       ),
     );
   }

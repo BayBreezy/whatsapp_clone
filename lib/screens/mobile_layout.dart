@@ -58,7 +58,7 @@ class MobileLayout extends StatelessWidget {
           backgroundColor: tabColor,
           tooltip: "Start a new message",
           onPressed: () {},
-          child: Icon(
+          child: const Icon(
             Icons.chat,
             color: Colors.white,
           ),
